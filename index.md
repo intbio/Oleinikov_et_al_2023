@@ -8,7 +8,7 @@
 ### Interactive preview of MD trajectories
 - [NCP<sup><i>tt</i></sup><sub>LANA</sub> -Nucleosome core particle with LANA (PDB ID 1ZLA)](NCP_tt_lana_trj_preview)
 - [NCP<sup><i>tt</i></sup><sub>LANA</sub> -Nucleosome core particle with LANA, 2nd run (PDB ID 1ZLA)](NCP_tt_lana2_trj_preview)
-- [NCP<sup><i>tt</i></sup><sub>LANA-tt</sub> -Nucleosome core particle with LANA, LANA ends is absent (PDB ID 1ZLA)](NCP_tt_lana2_trj_preview)
+- [NCP<sup><i>tt</i></sup><sub>LANA-tt</sub> -Nucleosome core particle with LANA, LANA ends is absent (PDB ID 1ZLA)](NCP_tt_lana_noends_trj_preview)
 - [NCP<sup><i>tt</i></sup><sub>CENP-C</sub> -Nucleosome core particle with CENP-C (PDB ID 4X23/1KX5)](NCP_tt_cenpc_trj_preview)
 - [NCP<sup><i>tt</i></sup><sub>CENP-C</sub> -Nucleosome core particle with CENP-C, 2nd run (PDB ID 4X23/1KX5)](NCP_tt_cenpc2_trj_preview)
 
