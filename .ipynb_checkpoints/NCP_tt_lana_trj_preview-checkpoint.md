@@ -165,6 +165,17 @@
         'diffuseInterior': false,
         'useInteriorColor': false
       });
+      nucl.addRepresentation('cartoon', {
+        "sele": ":K",
+        "color": 'magenta',
+        "aspectRatio": aspectRatio,
+        'radiusScale': radiusScale,
+        'radiusType': 'sstruc',
+        "capped": true,
+        'subdiv': 10,
+        'diffuseInterior': false,
+        'useInteriorColor': false
+      });
       window.nucl_cartoon = nucl.addRepresentation('cartoon', {
         "sele": "nucleic",
         "color": 'grey',
