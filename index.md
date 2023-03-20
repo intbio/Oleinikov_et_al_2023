@@ -1,6 +1,6 @@
 # Supplementary data
 ## "Paper name"
-[AuthorsAthors, paper](https:/)
+[Authors, paper](https:/)
 
 ### GitHub repository
 [https://github.com/intbio/Oleinikov_et_al_2023](https://github.com/intbio/Oleinikov_et_al_2023)
