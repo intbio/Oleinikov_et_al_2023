@@ -167,7 +167,7 @@
       });
       nucl.addRepresentation('cartoon', {
         "sele": ":W :X",
-        "color": 'magenta',
+        "color": 'cyan',
         "aspectRatio": aspectRatio,
         'radiusScale': radiusScale,
         'radiusType': 'sstruc',
