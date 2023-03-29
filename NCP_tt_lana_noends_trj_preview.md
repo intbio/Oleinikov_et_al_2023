@@ -1,4 +1,4 @@
-### NCP<sup><i>tt</i></sup><sub>LANA-tt</sub> -Nucleosome core particle with LANA, LANA ends is absent (PDB ID 1ZLA)
+### NCP<sup><i>tt</i></sup><sub>LANA-tt</sub> -Nucleosome core particle with LANA, LANA ends are absent (PDB ID 1ZLA)
 [Back](https://intbio.github.io/Oleinikov_et_al_2023)
 
 <html lang="en">
