@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/nrf_trj_for_web_lana_noends.pdb"
   var xtc="trj/nrf_trj_for_web_lana_noends.xtc"
-  var csvfile="dat/nucl_LANA_noends_cont_unwrap.csv"
+  var csvfile="dat/nucl_LANA_noends_dist_unwrap.csv"
   var trjstep = 0.1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
