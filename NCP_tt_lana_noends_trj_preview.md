@@ -152,7 +152,7 @@
         'useInteriorColor': false
       });
       nucl.addRepresentation('spacefill', {
-        "sele": ":I and -73 and .C1'",
+        "sele": ":I and -72 and .C1'",
         "color": "steelblue",
         "radius":5,
         'diffuseInterior': false,
