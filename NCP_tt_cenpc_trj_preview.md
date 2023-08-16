@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/cenpc_for_web.pdb"
   var xtc="trj/cenpc_for_web.xtc"
-  var csvfile="dat/nucl_CENPC_dist_unwrap.csv"
+  var csvfile="dat/cenpc_dist_unwrap.csv"
   var trjstep = 0.1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
