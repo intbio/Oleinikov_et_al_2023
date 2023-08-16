@@ -51,7 +51,7 @@
   var pdb="trj/cenpc_2_for_web.pdb"
   var xtc="trj/cenpc_2_for_web.xtc"
   var csvfile="dat/cenpc_2_dist_unwrap.csv"
-  var trjstep = 0.02;
+  var trjstep = 1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
       backgroundColor: "#FFFFFF"
@@ -449,7 +449,7 @@
           .attr("text-anchor", "end")
           .attr("x", width-width/2)
           .attr("y", height + 35)
-          .text("Time, μs");
+          .text("Time, ns");
           
           svg.append("text")
           .attr("class", "y label")
@@ -542,7 +542,7 @@
       <button type="submit" class="btn" name="play_button" data-toggle="button" id='play' onclick='window.traj.player.play();'>Play</button>
       <button type="submit" class="btn" name="play_button" data-toggle="button" id='pause' onclick='window.traj.player.pause();'>Pause</button>
       <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
-      <p>Time: <span id="frame_counter"></span> μs</p>
+      <p>Time: <span id="frame_counter"></span> ns</p>
 
     </div>
     <h4>Number of detached DNA base pairs from each nucleosome end</h4>
