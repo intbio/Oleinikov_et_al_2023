@@ -51,7 +51,7 @@
   var pdb="trj/cenpc_2_for_web.pdb"
   var xtc="trj/cenpc_2_for_web.xtc"
   var csvfile="dat/cenpc_2_dist_unwrap.csv"
-  var trjstep = 0.1;
+  var trjstep = 5;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
       backgroundColor: "#FFFFFF"
@@ -372,7 +372,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 10;
+              return d / 5;
             }))
 
         // Add Y axis
