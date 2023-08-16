@@ -51,7 +51,7 @@
   var pdb="trj/cenpc_2_for_web.pdb"
   var xtc="trj/cenpc_2_for_web.xtc"
   var csvfile="dat/cenpc_2_dist_unwrap.csv"
-  var trjstep = 5;
+  var trjstep = 1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
       backgroundColor: "#FFFFFF"
