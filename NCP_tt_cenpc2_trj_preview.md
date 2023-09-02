@@ -198,7 +198,7 @@
           mode: "once",
           interpolateType: "spline",
           step: 1,
-          interpolateStep: 5
+          interpolateStep: 1
         });
         window.traj.signals.frameChanged.add(function() {
           var fnum = window.traj.currentFrame;
@@ -475,7 +475,7 @@
         function drawTooltip() {
           const frame = Math.floor((x.invert(d3.mouse(tipBox.node())[0])));
           window.traj.player.pause();
-          window.traj.setFrame(frame/5);
+          window.traj.setFrame(frame);
 
           tooltipLine.attr('stroke', 'black')
             .attr('x1', x(frame))
