@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/lana_3_for_web.pdb"
   var xtc="trj/lana_3_for_web.xtc"
-  var csvfile="dat/lana_2_dist_unwrap.csv"
+  var csvfile="dat/lana_3_dist_unwrap.csv"
   var trjstep = 0.1;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
