@@ -372,7 +372,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 5;
+              return d / 1;
             }))
 
         // Add Y axis
@@ -475,7 +475,7 @@
         function drawTooltip() {
           const frame = Math.floor((x.invert(d3.mouse(tipBox.node())[0])));
           window.traj.player.pause();
-          window.traj.setFrame(frame);
+          window.traj.setFrame(frame/5);
 
           tooltipLine.attr('stroke', 'black')
             .attr('x1', x(frame))
