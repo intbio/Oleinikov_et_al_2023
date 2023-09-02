@@ -228,7 +228,7 @@
     window.slider = slider;
 
     slider.oninput = function() {
-      //output.innerHTML = (this.value*trjstep/5).toFixed(2);
+      //output.innerHTML = (this.value*trjstep).toFixed(2);
       window.traj.player.pause();
       window.traj.setFrame(this.value);
       //tooltipLine.attr('stroke', 'black')
@@ -475,7 +475,7 @@
         function drawTooltip() {
           const frame = Math.floor((x.invert(d3.mouse(tipBox.node())[0])));
           window.traj.player.pause();
-          window.traj.setFrame(frame/5);
+          window.traj.setFrame(frame);
 
           tooltipLine.attr('stroke', 'black')
             .attr('x1', x(frame))
