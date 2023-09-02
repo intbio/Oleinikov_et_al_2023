@@ -1,4 +1,4 @@
-### CENP-C<sub>motif</sub>-NCP, 2 run -Nucleosome core particle with CENP-C, 2nd run (PDB ID 4X23/1KX5) 
+### CENP-C<sub>motif</sub>-NCP, 2 run -Nucleosome core particle with CENP-C<sub>motif</sub>, 2nd run (PDB ID 4X23/1KX5) 
 [Back](https://intbio.github.io/Oleinikov_et_al_2023)
 
 <html lang="en">
