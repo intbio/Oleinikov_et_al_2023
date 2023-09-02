@@ -1,4 +1,4 @@
-### CENP-C<sub>motif</sub>-NCP, 1 run -Nucleosome core particle with CENP-C, 1st run (PDB ID 4X23/1KX5)
+### CENP-C<sub>motif</sub>-NCP, 1 run -Nucleosome core particle with CENP-C<sub>motif</sub>, 1st run (PDB ID 4X23/1KX5)
 [Back](https://intbio.github.io/Oleinikov_et_al_2023)
 
 <html lang="en">
@@ -449,7 +449,7 @@
           .attr("text-anchor", "end")
           .attr("x", width-width/2)
           .attr("y", height + 35)
-          .text("Time, μs");
+          .text("Time, ns");
           
           svg.append("text")
           .attr("class", "y label")
@@ -543,7 +543,7 @@
       <button type="submit" class="btn" name="play_button" data-toggle="button" id='play' onclick='window.traj.player.play();'>Play</button>
       <button type="submit" class="btn" name="play_button" data-toggle="button" id='pause' onclick='window.traj.player.pause();'>Pause</button>
       <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
-      <p>Time: <span id="frame_counter"></span> μs</p>
+      <p>Time: <span id="frame_counter"></span> ns</p>
 
     </div>
     <h4>Number of detached DNA base pairs from each nucleosome end</h4>
