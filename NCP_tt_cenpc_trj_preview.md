@@ -1,4 +1,4 @@
-### NCP<sup><i>tt</i></sup><sub>CENP-C</sub> -Nucleosome core particle with CENP-C, (PDB ID 4X23/1KX5)
+### CENP-C<sub>motif</sub>-NCP, 1 run -Nucleosome core particle with CENP-C, 1st run (PDB ID 4X23/1KX5)
 [Back](https://intbio.github.io/Oleinikov_et_al_2023)
 
 <html lang="en">
@@ -51,7 +51,7 @@
   var pdb="trj/cenpc_for_web.pdb"
   var xtc="trj/cenpc_for_web.xtc"
   var csvfile="dat/cenpc_dist_unwrap.csv"
-  var trjstep = 0.1;
+  var trjstep = 5;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
       backgroundColor: "#FFFFFF"
@@ -358,7 +358,7 @@
       // Now I can use this dataset:
       function(data) {
         data.forEach(function(d) {
-          d.Frame = d.Frame / 100;
+          d.Frame = d.Frame / 5;
         });
         // Add X axis --> it is a date format
 
@@ -372,7 +372,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d / 10;
+              return d / 0.2;
             }))
 
         // Add Y axis
@@ -503,6 +503,7 @@
     <p style="color:#E0F705;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H2A</p>
     <p style="color:#CE0000;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">H2B</p>
     <p style="color:#808080;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">DNA</p>
+    <p style="color:#00FFFF;font-size:22px;font-family:verdana;font-weight: bold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;display: inline">CENP-C<sub>motif</sub></p>
     <br>
     <input class="form-check-input " type="checkbox" name="ref_str_check" value="" id="ref_str_check">
     <label class="form-check-label " for="ref_str_check">
