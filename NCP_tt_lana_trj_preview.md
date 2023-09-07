@@ -105,7 +105,7 @@
       window.key_arg_selection.setVisibility(false);
 
       window.acidic_patch_selection = nucl.addRepresentation('hyperball', {
-        "sele": "((56 61 64 90 81 92 and :C :G) or (102 110 and :D :H)) and not _H",
+        "sele": "(((56 61 64 90 81 92) and (:C :G)) or ((102 110) and (:D :H))) and not _H",
         color: hyper_scheme,
         radius: 3.5
       });
