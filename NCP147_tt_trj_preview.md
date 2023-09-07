@@ -1,5 +1,5 @@
-### NCP<sup><i>tt</i></sup><sub>147</sub> - same as NCP<sub>147</sub>, but with truncated histone tails (PDB ID 1KX5)
-[Back](https://intbio.github.io/Armeev_et_al_2021)
+### NCP<sub>Free</sub> - Free nucleosome core particle (PDB ID 1KX5)
+[Back](https://intbio.github.io/Oleinikov_et_al_2023)
 
 <html lang="en">
   <head>
@@ -96,6 +96,13 @@
         radius: 3.5
       });
       window.arg_lys_selection.setVisibility(false);
+
+      window.acidic_patch_selection = nucl.addRepresentation('hyperball', {
+        "sele": "(((56 61 64 90 81 92) and (:C :G)) or ((102 110) and (:D :H))) and not _H",
+        color: hyper_scheme,
+        radius: 3.5
+      });
+      window.acidic_patch_selection.setVisibility(false);
       
       window.dna_latch_selection = nucl.addRepresentation('hyperball', {
         "sele": "39-49 and (:A or :E) and not _H",
@@ -230,6 +237,7 @@
 
     $('input[type=checkbox][name=ref_str_check]').on('change', toggle_reference_structure);
     $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_lys_arg_visibility);
+    $('input[type=checkbox][name=acidic_patch_check]').on('change', toggle_acidic_patch_visibility);
     $('input[type=checkbox][name=latch_check]').on('change', toggle_latch_visibility);
     $('input[type=checkbox][name=highlight_DA_check]').on('change', toggle_DA_highlight);
     $('input[type=checkbox][name=ortho_check]').on('change', toggle_orthographic);
@@ -300,6 +308,12 @@
       var state = $(this).is(":checked");
       window.arg_lys_selection.setVisibility(state);
     }
+    
+    function toggle_acidic_patch_visibility() {
+      var state = $(this).is(":checked");
+      window.acidic_patch_selection.setVisibility(state);
+    }
+    
     function toggle_latch_visibility() {
       var state = $(this).is(":checked");
       window.dna_latch_selection.setVisibility(state);
@@ -525,6 +539,11 @@
       Highlight ADE
     </label>
 
+    <br>
+    <input class="form-check-input " type="checkbox" name="acidic_patch_check" value="" id="acidic_patch_check">
+    <label class="form-check-label " for="acidic_patch_check">
+      Show acidic patch
+    </label>
 
     <div id="viewport0" style="height:500px; border: thin solid black"></div>
     <div class="slidecontainer">
