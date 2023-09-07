@@ -97,9 +97,16 @@
       });
       window.arg_lys_selection.setVisibility(false);
 
+      window.key_arg_selection = nucl.addRepresentation('hyperball', {
+        "sele": "((:W :X and 8) or (:K and 9)) and not _H",
+        color: hyper_scheme,
+        radius: 3.5
+      });
+      window.key_arg_selection.setVisibility(false);
+
       window.acidic_patch_selection = nucl.addRepresentation('hyperball', {
         "sele": "((56 61 64 90 81 92 and :C :G) or (102 110 and :D or :H)) and not _H",
-        color: residues,
+        color: hyper_scheme,
         radius: 3.5
       });
       window.acidic_patch_selection.setVisibility(false);
@@ -249,6 +256,7 @@
     $('input[type=checkbox][name=ref_str_check]').on('change', toggle_reference_structure);
     $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_lys_arg_visibility);
     $('input[type=checkbox][name=latch_check]').on('change', toggle_latch_visibility);
+    $('input[type=checkbox][name=key_arg_check]').on('change', toggle_key_arg_visibility);
     $('input[type=checkbox][name=acidic_patch_check]').on('change', toggle_acidic_patch_visibility);
     $('input[type=checkbox][name=highlight_DA_check]').on('change', toggle_DA_highlight);
     $('input[type=checkbox][name=ortho_check]').on('change', toggle_orthographic);
@@ -318,6 +326,10 @@
     function toggle_lys_arg_visibility() {
       var state = $(this).is(":checked");
       window.arg_lys_selection.setVisibility(state);
+    }
+    function toggle_key_arg_visibility() {
+      var state = $(this).is(":checked");
+      window.key_arg_selection.setVisibility(state);
     }
     function toggle_acidic_patch_visibility() {
       var state = $(this).is(":checked");
@@ -549,9 +561,15 @@
       Highlight ADE
     </label>
 
+    <br>
     <input class="form-check-input " type="checkbox" name="acidic_oatch_check" value="" id="acidic_patch_check">
     <label class="form-check-label " for="acidic_patch_check">
       Show acidic patch
+    </label>
+
+    <input class="form-check-input " type="checkbox" name="key_arg_check" value="" id="key_arg_check">
+    <label class="form-check-label " for="key_arg_check">
+      Show peptides' key ARG
     </label>
 
 
