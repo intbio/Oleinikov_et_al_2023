@@ -85,7 +85,7 @@
       window.axes.addRepresentation( "buffer" );
       window.axes.autoView();
       window.axes.setVisibility(false);
-      stage.animationControls.rotate([ 0, 1, 0, 0 ],0);
+      stage.animationControls.rotate([ 0, 0, 0, 0 ],0);
 	  stage.setParameters({cameraType: "orthographic"});
 
       
