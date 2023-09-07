@@ -96,6 +96,13 @@
         radius: 3.5
       });
       window.arg_lys_selection.setVisibility(false);
+
+      window.acidic_patch_selection = nucl.addRepresentation('hyperball', {
+        "sele": "39-49 and (:A or :E) and not _H",
+        color: residues,
+        radius: 3.5
+      });
+      window.acidic_patch_selection.setVisibility(false);
       
       window.dna_latch_selection = nucl.addRepresentation('hyperball', {
         "sele": "39-49 and (:A or :E) and not _H",
@@ -242,6 +249,7 @@
     $('input[type=checkbox][name=ref_str_check]').on('change', toggle_reference_structure);
     $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_lys_arg_visibility);
     $('input[type=checkbox][name=latch_check]').on('change', toggle_latch_visibility);
+    $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_acidic_patch_visibility);
     $('input[type=checkbox][name=highlight_DA_check]').on('change', toggle_DA_highlight);
     $('input[type=checkbox][name=ortho_check]').on('change', toggle_orthographic);
     $('input[type=checkbox][name=axes_check]').on('change', toggle_axes_visibility);
@@ -310,6 +318,10 @@
     function toggle_lys_arg_visibility() {
       var state = $(this).is(":checked");
       window.arg_lys_selection.setVisibility(state);
+    }
+    function toggle_acidic_patch_visibility() {
+      var state = $(this).is(":checked");
+      window.acidic_patch_selection.setVisibility(state);
     }
     function toggle_latch_visibility() {
       var state = $(this).is(":checked");
