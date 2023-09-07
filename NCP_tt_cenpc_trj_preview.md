@@ -98,7 +98,7 @@
       window.arg_lys_selection.setVisibility(false);
 
       window.key_arg_selection = nucl.addRepresentation('hyperball', {
-        "sele": "((:W :X and 8) or (:K and 9)) and not _H",
+        "sele": "(((:W :X) and 8) or (:K and 9)) and not _H",
         color: hyper_scheme,
         radius: 3.5
       });
