@@ -249,7 +249,7 @@
     $('input[type=checkbox][name=ref_str_check]').on('change', toggle_reference_structure);
     $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_lys_arg_visibility);
     $('input[type=checkbox][name=latch_check]').on('change', toggle_latch_visibility);
-    $('input[type=checkbox][name=arg_lys_check]').on('change', toggle_acidic_patch_visibility);
+    $('input[type=checkbox][name=acidic_patch_check]').on('change', toggle_acidic_patch_visibility);
     $('input[type=checkbox][name=highlight_DA_check]').on('change', toggle_DA_highlight);
     $('input[type=checkbox][name=ortho_check]').on('change', toggle_orthographic);
     $('input[type=checkbox][name=axes_check]').on('change', toggle_axes_visibility);
@@ -547,6 +547,11 @@
     <input class="form-check-input " type="checkbox" name="highlight_DA_check" value="" id="highlight_DA_check">
     <label class="form-check-label " for="highlight_DA_check">
       Highlight ADE
+    </label>
+
+    <input class="form-check-input " type="checkbox" name=acidic_oatch_check" value="" id="acidic_patch_check">
+    <label class="form-check-label " for="acidic_patch_check">
+      Show acidic patch
     </label>
 
 
