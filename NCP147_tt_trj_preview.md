@@ -1,5 +1,6 @@
 ### NCP<sub>Free</sub> - Free nucleosome core particle (PDB ID 1KX5)
 [Back](https://intbio.github.io/Oleinikov_et_al_2023)
+[Originates from](https://intbio.github.io/Armeev_et_al_2021)
 
 <html lang="en">
   <head>
