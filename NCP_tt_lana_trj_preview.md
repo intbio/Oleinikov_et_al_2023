@@ -562,7 +562,7 @@
     </label>
 
     <br>
-    <input class="form-check-input " type="checkbox" name="acidic_oatch_check" value="" id="acidic_patch_check">
+    <input class="form-check-input " type="checkbox" name="acidic_patch_check" value="" id="acidic_patch_check">
     <label class="form-check-label " for="acidic_patch_check">
       Show acidic patch
     </label>
