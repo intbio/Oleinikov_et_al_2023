@@ -581,12 +581,12 @@
 
     <input class="form-check-input " type="checkbox" name="key_arg_check" value="" id="key_arg_check">
     <label class="form-check-label " for="key_arg_check">
-      Show peptides' Anchor ARG
+      Show peptide anchor ARG
     </label>
 
     <input class="form-check-input " type="checkbox" name="other_arg_check" value="" id="other_arg_check">
     <label class="form-check-label " for="other_arg_check">
-      Show peptides' Other peptide ARG
+      Show other peptide ARG
     </label>
 
     <div id="viewport0" style="height:500px; border: thin solid black"></div>
