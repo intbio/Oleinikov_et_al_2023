@@ -22,7 +22,7 @@
     <div style="width: 1200px; display: table;">
     
     <div style="display: table-row">
-        <div id="msa_0" style="width: 600px; display: table-cell;"> MSA </div>
+        <div id="msa_0" style="width: 500; display: table-cell;"> MSA </div>
         
         <div id="cluster_panel" style="display: table-cell; vertical-align:top"> 
         To highlight residues, double-click on them in the alignment. 
@@ -110,12 +110,12 @@
     function decorate_msa(){
         $('#msa .biojs_msa_labelblock').ready(function(){
             
-            $('#msa .biojs_msa_headers').css("width","245px");
+            $('#msa .biojs_msa_headers').css("width","205px");
             var legend = $('#msa .biojs_msa_headers').children()[0].childNodes[1]
             legend.textContent = 'Hist. Ac.P. Int. Licor.'
 
             var rows = $('#msa .biojs_msa_labels');
-            rows.css("width","240px");
+            rows.css("width","200px");
 
             for (let item of rows) {
                 // console.log(item.title);
