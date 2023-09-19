@@ -5,6 +5,8 @@
 ### GitHub repository
 [https://github.com/intbio/Oleinikov_et_al_2023](https://github.com/intbio/Oleinikov_et_al_2023)
 
+### [Interactive viewer of different nucleosome peptide and nucleosome protein structures](ap_viewer)
+
 ### Interactive preview of MD trajectories
 - [LANA<sub>1-22</sub>-NCP, 1 run -Nucleosome core particle with LANA<sub>1-22</sub> (PDB ID 1ZLA)](NCP_tt_lana_trj_preview)
 - [LANA<sub>1-22</sub>-NCP, 2 run -Nucleosome core particle with LANA<sub>1-22</sub>, 2nd run (PDB ID 1ZLA)](NCP_tt_lana2_trj_preview)
