@@ -19,7 +19,7 @@
     <script src="js/msa.min.js"></script>
     <script src="js/ngl.js"></script>
 
-    <div style="width: 100%; display: table;">
+    <div style="width: 1200px; display: table;">
     
     <div style="display: table-row">
         <div id="msa_0" style="width: 600px; display: table-cell;"> MSA </div>
