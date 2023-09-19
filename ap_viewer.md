@@ -34,7 +34,7 @@
         </div>
     </div>
     <div style="display: table-row">
-        <div id="msa" style="width: 600px; display: table-cell;"> MSA </div>
+        <div id="msa" style="width: 550px; display: table-cell;"> MSA </div>
         <div id="viewport" style="display: table-cell; height:500px;"> 3D view </div>
     </div>
 </div>
