@@ -16,8 +16,8 @@
   src="https://code.jquery.com/jquery-3.7.0.min.js"
   integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
   crossorigin="anonymous"></script>
-    <script src="/js/msa.min.js"></script>
-    <script src="/js/ngl.js"></script>
+    <script src="js/msa.min.js"></script>
+    <script src="js/ngl.js"></script>
 
     <div style="width: 100%; display: table;">
     
@@ -65,7 +65,7 @@
 // loading logo from unique
      var opts = {
   el: document.getElementById("msa_0"),
-  importURL: "./dat/acidic_clusters_unique.fasta",
+  importURL: "dat/acidic_clusters_unique.fasta",
   // colorscheme: {"scheme": "clustal"},
   vis:{seqlogo:true,
        sequences:false,
@@ -89,7 +89,7 @@
 // loading main   
  var opts = {
   el: document.getElementById("msa"),
-  importURL: "./dat/acidic_clusters.fasta",
+  importURL: "dat/acidic_clusters.fasta",
   colorscheme: {scheme: "taylor",showLowerCase: false},
   vis:{seqlogo:false,
        labels: true,
@@ -246,7 +246,7 @@
         $.ajax({
             'async': false,
             'global': false,
-            'url': './dat/ap_structues.json',
+            'url': 'dat/ap_structues.json',
             'dataType': "json",
             'success': function (data) {
                 json = data;
@@ -366,7 +366,7 @@
          
           var orientationMatrix = stage.viewerControls.getOrientation();
           
-          window.stage.loadFile("/AP/"+pdb_id+".pdb").then(function (nucl) {
+          window.stage.loadFile("AP/"+pdb_id+".pdb").then(function (nucl) {
               
                // if (side == 2) {nucl.setRotation([0,0,0])}
               
