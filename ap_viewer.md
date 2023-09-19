@@ -22,7 +22,7 @@
     <div style="width: 1200px; display: table;">
     
     <div style="display: table-row">
-        <div id="msa_0" style="width: 500; display: table-cell;"> MSA </div>
+        <div id="msa_0" style="width: 550; display: table-cell;"> MSA </div>
         
         <div id="cluster_panel" style="display: table-cell; vertical-align:top"> 
         To highlight residues, double-click on them in the alignment. 
