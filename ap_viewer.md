@@ -65,7 +65,7 @@
 // loading logo from unique
      var opts = {
   el: document.getElementById("msa_0"),
-  importURL: "dat/acidic_clusters_unique.fasta",
+  importURL: "./dat/acidic_clusters_unique.fasta",
   // colorscheme: {"scheme": "clustal"},
   vis:{seqlogo:true,
        sequences:false,
@@ -89,7 +89,7 @@
 // loading main   
  var opts = {
   el: document.getElementById("msa"),
-  importURL: "dat/acidic_clusters.fasta",
+  importURL: "./dat/acidic_clusters.fasta",
   colorscheme: {scheme: "taylor",showLowerCase: false},
   vis:{seqlogo:false,
        labels: true,
