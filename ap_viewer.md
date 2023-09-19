@@ -204,7 +204,7 @@
             });
             $('#msa_0 .biojs_msa_headers').ready(function(){
                 $('#msa_0 .biojs_msa_headers')[0].children[0].childNodes[0].textContent=''
-                $('#msa_0 .biojs_msa_headers').css("width","245px");
+                $('#msa_0 .biojs_msa_headers').css("width","205px");
                 var item = $('#msa_0 .biojs_msa_headers')[0];
                 let histBOX = document.createElement("input",type='checkbox');
                 histBOX.type = "checkbox";
