@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+### Nucleosome complexes with proteins containing an arginine anchor.
+[Back](https://intbio.github.io/Oleinikov_et_al_2023)
+
 <html>
 <head>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -16,7 +18,7 @@
   crossorigin="anonymous"></script>
     <script src="/js/msa.min.js"></script>
     <script src="/js/ngl.js"></script>
-    <h3>Nucleosome complexes with proteins containing an arginine anchor.</h3>
+
     <div style="width: 100%; display: table;">
     
     <div style="display: table-row">
