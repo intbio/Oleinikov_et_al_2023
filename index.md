@@ -1,6 +1,6 @@
 # Supplementary data
-## "Paper name"
-[Authors, paper](https:/)
+## Interactions of nucleosomes with acidic patch binding peptides: a combined structural bioinformatics, molecular modeling, fluorescence polarization, and single molecule FRET study
+Pavel D. Oleinikov, Anastasiia S. Fedulova, Grigoriy A. Armeev, Nikita A. Motorin, Lovepreet Singh-Palchevskaia, Anastasiia L. Sivkina, Pavel G. Feskin, Grigorii S. Glukhov,  Dmitry A. Afonin, Galina A. Komarova, Mikhail P. Kirpichnikov, Vasily M. Studitsky, Alexey V. Feofanov and Alexey K. Shaytan
 
 ### GitHub repository
 [https://github.com/intbio/Oleinikov_et_al_2023](https://github.com/intbio/Oleinikov_et_al_2023)
